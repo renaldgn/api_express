@@ -7,7 +7,7 @@ var DBNAME = 'ream';
 
 /* GET home page. */
 router.get('/', function (req, res) {
-	res.render('index', { title: 'Express' });
+	res.render('index', { title: 'ExpressRey' });
 })
 
 router.post('/login', function (req, res) {
